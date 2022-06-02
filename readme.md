@@ -1,10 +1,10 @@
-### pokeclicker-autoclicker
+# pokeclicker-autoclicker
 
 ## Features
-# Performance
+### Performance
 Only checks if a "clickable" is available every 500ms
 
-# Click
+### Click
 Clicks every 51ms as 50ms seems to be the hardcoded limit.
 
 Only clicks :

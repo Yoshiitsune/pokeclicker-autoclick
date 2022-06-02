@@ -56,6 +56,11 @@ javascript: (() => {
                     _click = () => DungeonRunner.handleClick();
                     window.looptimer = 51;
                 }
+
+                if (App.game.gameState === GameConstants.GameState.gym && Battle.enemyPokemon() !== null && Battle.enemyPokemon().isAlive()) {
+                    _click = () => GymBattle.clickAttack();
+                    window.looptimer = 51;
+                }
                 
                 _click();
                 elDivButton.nextDegree();

@@ -12,4 +12,5 @@ Only clicks :
 - boss "doors"
 
 ## Notes
+- v1.0.1 Added gym 
 - v1.0.0 Add button to enable/disable a 51ms autoclicker + rainbow
